@@ -1,5 +1,5 @@
 var formValidity = true;
-var specialChar = /[\#*|\":<>[\]{}`\\()';@&$]/;
+var specialChar = /[\#%^!*|\":<>[\]{}`\\()';@&$]/;
 
 function runValidate() {
 	var firstNameInfo = document.getElementById("fName2");
