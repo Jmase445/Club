@@ -1,6 +1,6 @@
 jQuery(document).ready(function($) {
   $.ajax({
-  url : "http://api.wunderground.com/api/514ffe25deababf8/geolookup/conditions/q/AZ/Phoenix.json",
+  url : "https://api.wunderground.com/api/514ffe25deababf8/geolookup/conditions/q/AZ/Phoenix.json",
   dataType : "jsonp",
   success : function(parsed_json) {
   var location = parsed_json['location']['city'];
